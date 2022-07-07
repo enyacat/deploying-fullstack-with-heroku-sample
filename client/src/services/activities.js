@@ -13,7 +13,7 @@ const getAllActivities = () => {
 
 const getNewActivity = () => {
   const request = axios.get(`${baseUrl}/activity`)
-  return request.then(response => response.json().data)
+  return request.then(response => response.json())
 }
 
 const addActivity = activity => {
