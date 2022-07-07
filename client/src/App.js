@@ -33,6 +33,7 @@ function App() {
       .then(data => {
         setNewActivity(data.activity)
       })
+    console.log(newActivity)
   }
 
   const handleAddActivity = newActivity => {
