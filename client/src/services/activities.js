@@ -4,7 +4,7 @@ axios.defaults.headers.common = {
   "Content-Type": "application/json"
 }
 
-const baseUrl = 'https://www.boredapi.com/api/' 
+const baseUrl = 'https://www.boredapi.com/api' 
 
 const getAllActivities = () => {
   const request = axios.get(baseUrl)
